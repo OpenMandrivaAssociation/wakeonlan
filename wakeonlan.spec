@@ -11,6 +11,7 @@ Source:		http://gsd.di.uminho.pt/jpo/software/wakeonlan/downloads/%{name}-%{vers
 License:	Artistic
 URL:		http://gsd.di.uminho.pt/jpo/software/wakeonlan/
 Group:		Networking/Remote access
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 %description
 Wakeonlan is a Perl script that sends 'magic packets' to
