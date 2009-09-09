@@ -1,7 +1,7 @@
 
 %define name	wakeonlan
 %define version	0.41
-%define rel	2
+%define rel	3
 
 Summary:	Wake-on-LAN magic packet sender
 Name:		%{name}
