@@ -32,3 +32,26 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc examples Changes README
 %{_bindir}/wakeonlan
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.41-3mdv2010.0
++ Revision: 434699
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.41-2mdv2009.0
++ Revision: 136571
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Jun 03 2007 Anssi Hannula <anssi@mandriva.org> 0.41-2mdv2008.0
++ Revision: 34871
+- annual rebuild
+- Import wakeonlan
+
+
+
+* Fri May 26 2006 Anssi Hannula <anssi@mandriva.org> 0.41-1mdv2007.0
+- initial Mandriva release
