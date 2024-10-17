@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%mkrel %rel
 Source:		http://gsd.di.uminho.pt/jpo/software/wakeonlan/downloads/%{name}-%{version}.tar.bz2
 License:	Artistic
-URL:		http://gsd.di.uminho.pt/jpo/software/wakeonlan/
+URL:		https://gsd.di.uminho.pt/jpo/software/wakeonlan/
 Group:		Networking/Remote access
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
